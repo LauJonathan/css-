@@ -1,0 +1,5 @@
+
+1.背景色透明：
+  background: rgba(108,108,108,0.5);   // ie9+
+  filter: progid:DXImageTransform.Microsoft.Gradient(startColorstr=#88000000,endColorstr=#88000000);
+  // ie8- 其中startColorstr=#88000000 ，前两位是透明度（ 00-FF），后六位是色值。这也是ie下面颜色渐变的写法，start和end的颜色不一样就是渐变了。
