@@ -7,3 +7,4 @@
   1.把tbody设置成display:block，然后就对其高度设置一个固定值，overflow设置成auto。
   2.把thead的tr设置成display:block。
   3.因为都设置成block所以要给td手动添加宽度，如width:200px
+三.ie9 Css加(-ms-)样式hack,ie9预览图片无法显示问题,组件jquery.uploadify
